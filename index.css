@@ -1,3 +1,209 @@
 #heading{
     color: red
 }
+.header {
+    height: 80px;
+display: flex;
+justify-content: space-between;
+}
+.nav-items{
+    height: 100px;
+}
+
+.logo-container{
+    margin-top: 8px
+}
+.nav-items{
+    margin-top: 2px
+}
+.logo-container > img {
+    width: 120px;
+    height: 100px;
+}
+
+.nav-items > ul {
+display: flex;
+padding-right: 48px;
+}
+
+.nav-items > ul > li {
+    margin: 0px 19px;
+    font-size: 23px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.res-card{
+    width: 210px;
+    
+    background-color: #f0f0f0;
+    margin: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+.res-card:hover{
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.res-conatiner{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 16px; 
+}
+
+.res-img > img {
+    width: 210px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+
+
+/* Shimmer.css */
+.shimmer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 90px;
+  }
+  
+  .shimmer-card {
+    width: 240px;
+    height: 380;
+    background: #f6f7f8;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+
+.shimmer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .shimmer > div {
+    background: linear-gradient(90deg, rgba(0,0,0,0.06) 0%, rgba(0,0,0,0.04) 50%, rgba(0,0,0,0.06) 100%);
+  }
+  
+  /* image (square / rounded) */
+  .shimmer-image {
+    height: 140px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90%;
+    border-radius: 8px;
+  }
+  
+  /* name (single-line) */
+  .shimmer-name {
+    margin-left: 5px;
+    height: 16px;
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  /* cousine (two short lines; uses pseudo-elements for stacked look) */
+  .shimmer-cousine {
+    margin-left: 5px;
+    height: 12px;
+    width: 40%;
+    margin-top: 6px;
+    border-radius: 4px;
+  }
+  
+  /* rating (small pill) */
+  .shimmer-rating {
+    margin-left: 5px;
+    height: 18px;
+    width: 28%;
+    margin-top: 10px;
+    border-radius: 12px;
+  }
+  
+  /* delivery (full width small bar) */
+  .shimmer-delivery {
+    margin-left: 5px;
+    height: 12px;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+  }
+  
+
+
+  .top-res {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    margin: 16px 0;
+  }
+  
+  .search {
+    display: flex;
+    gap: 8px;
+    margin: auto;
+  }
+  
+  .search input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.2s ease;
+    width: 370px;
+  }
+  
+  .search input:focus {
+    border-color: #0077ff;
+    box-shadow: 0 0 4px rgba(0,119,255,0.3);
+  }
+  
+  .search button {
+    padding: 8px 16px;
+    border: none;
+    background: #0077ff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    width: 87px;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .search button:hover {
+    background: #005fcc;
+  }
+  
+  .top-res > div:last-child button {
+    padding: 8px 16px;
+    border: none;
+    background: #ff6b35;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    margin: auto;
+    padding: 8px 16px;
+    font-size: 12px;
+    transition: background .2s;
+    font-weight: 900;
+  }
+  
+  .top-res > div:last-child button:hover {
+    background: #e65a25;
+  }
+  

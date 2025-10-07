@@ -32,6 +32,10 @@ return <div id="Functonal_Composition">
 }
 
 
+
+
+
+
 console.log('1',FunctionalComponent)
 console.log('2',FunctionalComponent())
 
